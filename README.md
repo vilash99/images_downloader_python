@@ -3,9 +3,9 @@
 Retrieve image names and URLs from a CSV file, then employ the requests library with multithreading to download the corresponding images in Python.
 
 ## Parameters
-threads: total number of threads to run parallel
-path: directory to store downloaded image files (here images/)
-input: CSV file will contain two columns: name of image, url (here urls.csv)
+* <em>threads<em>: total number of threads to run parallel
+* <em>path<em>: directory to store downloaded image files (here images/)
+* <em>input<em>: CSV file will contain two columns: name of image, url (here urls.csv)
 
 ## Installation
 1. Clone the repo
@@ -22,7 +22,7 @@ pip install requests
 ```
 
 3. Run the script
-Pass required values in function e.g. threads, path to save images, and input CSV file. Then run the script with given command.
+Pass required values in function e.g. threads, path to save images, and input CSV file. Then run the script with the given command.
 ```bash
 python image_downloader.py
 ```
